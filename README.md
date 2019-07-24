@@ -6,5 +6,9 @@ https://www.pyimagesearch.com/2016/12/05/macos-install-opencv-3-and-python-3-5/
 https://www.pyimagesearch.com/2018/09/03/semantic-segmentation-with-opencv-and-deep-learning/
 
 
-# Keras
-https://ithelp.ithome.com.tw/articles/10191404
+
+
+
+# Keras and Convolutional Neural Networks (CNNs)
+https://www.pyimagesearch.com/2018/04/16/keras-and-convolutional-neural-networks-cnns/
+
