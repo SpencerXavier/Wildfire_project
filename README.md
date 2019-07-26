@@ -35,8 +35,6 @@ https://github.com/dusty-nv/jetson-inference
 # Docker useage
 
 
-#
-
 
 
 
