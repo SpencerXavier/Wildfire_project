@@ -22,24 +22,15 @@ build a container and storage place and use UC Berkeley;s algorithm
 
 
 
-# USE KERAS TO TRAIN SMOKE IMAGES AND DO THE INFERENCE
--Keras Tutorial: How to get started with Keras, Deep Learning, and Python
-https://www.pyimagesearch.com/2018/09/10/keras-tutorial-how-to-get-started-with-keras-deep-learning-and-python/
 
 
-# use DIGITS to train and run on Jeston nano
+
+# use DIGITS to train and run on Jeston nano (you can test your own data )
 https://github.com/dusty-nv/jetson-inference
-
-
-
-
-
-
-
-# Docker useage
-
-
-
+ps. download and extract the trained model snapshot to Jetson (snapshot is in job)
+NET = snapshot folder , png = your own data
+segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --output_blob=score_fr
+use custom dataset to train models in digits (you can also test inference on digits)
 
 
 
