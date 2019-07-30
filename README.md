@@ -9,7 +9,7 @@ PATH1 : Digits
 
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
-
+------------------
 PATH2 : KERAS
 - use keras to run it do the same thing
 
