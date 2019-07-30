@@ -7,6 +7,7 @@ PATH1 : Digits
 1. we put the Dataset from drone and we can distinguishh the sky and lrerrin
 2.now we are trying feed the smoke data and label it to train and let it detect smoke
 3.use the smoke data provided by researcher
+4.run on live camera
 
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
