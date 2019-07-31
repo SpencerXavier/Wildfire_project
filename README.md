@@ -33,5 +33,9 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
 use custom dataset to train models in digits (you can also test inference on digits)
 
 
+# data provided by researcher
+http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/
+
+
 
 
