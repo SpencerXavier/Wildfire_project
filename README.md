@@ -12,7 +12,7 @@ PATH1 : Digits[cloud platform] (make step by step tutorial)
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
 ------------------
-PATH2 : KERAS
+PATH2 : KERAS (USE tensorflow 2.0)
 - use keras to run it do the same thing
 
 PATH3 : UC Berkeley;s algorithm 
