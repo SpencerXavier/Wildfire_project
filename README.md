@@ -5,10 +5,12 @@ End goal : do the training (retrain the custom data) and inference  on nano to d
 PATH1 : Digits[cloud platform] (make step by step tutorial)
 - We use digits to do the training and test the inference on digits (30secs)
 1. we put the Dataset from drone and we can distinguishh the sky and lrerrin
-2.now we are trying feed the smoke data and label it to train and let it detect smoke(smoke and not smoke)60 pics
-3.use the smoke data provided by researcher (solve label problem automatically,modify the layer text,come up with different scence for smoke)
-4.run the motion vector algorithm to see moving smoke and observe their behavior(addoition annotation see if it's from fire based on weather,wind)
-5.let ppl run on live camera (social network)
+2.now we are trying feed the smoke data and label it to train and let it detect smoke in DIGITS(smoke and not smoke)60 pics
+
+3.use the smoke data provided by researcher (solve label problem automatically,modify the layer text,come up with different scence for smoke) --label automatically and let ppl correct it manually
+4.run the motion vector algorithm to see moving smoke and observe their behavior(addoition annotation see if it's from fire based on weather,wind) and different 
+6.let ppl run on live camera (social network)
+7.feed more data
 
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
