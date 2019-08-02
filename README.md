@@ -15,8 +15,13 @@ PATH1 : Digits[cloud platform] (make step by step tutorial)
 PATH2 : KERAS (USE tensorflow 2.0)
 - use keras to run it do the same thing
 
-PATH3 : UC Berkeley;s algorithm 
+
+PATH3 :Use motion_estimation to detect the smoke
+https://github.com/ross-abaco/rtp-motion-estimation
+
+PATH4 : UC Berkeley;s algorithm 
 build a container and storage place and use UC Berkeley;s algorithm 
+
 
 
 
