@@ -24,12 +24,6 @@ build a container and storage place and use UC Berkeley;s algorithm
 
 
 
-
-
-
-
-
-
 # use DIGITS to train and run on Jeston nano (you can test your own data )
 https://github.com/dusty-nv/jetson-inference
 ps. download and extract the trained model snapshot to Jetson (snapshot is in job)
@@ -45,6 +39,9 @@ https://github.com/byungheon-jeong/HPWREN-data
 # Data-preprocess : Label tool
 https://github.com/tzutalin/labelImg
 
+
+# plan
+poster
 
 
 
