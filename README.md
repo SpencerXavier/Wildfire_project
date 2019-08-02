@@ -1,5 +1,5 @@
 # WORK FLOW
-End goal : do the training and inference  on nano to detect the smoke and notify the firefighter
+End goal : do the training (retrain the custom data) and inference  on nano to detect the smoke and notify the firefighter
 
 
 PATH1 : Digits[cloud platform] (make step by step tutorial)
