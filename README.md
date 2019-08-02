@@ -18,6 +18,7 @@ PATH2 : KERAS (USE tensorflow 2.0)
 
 PATH3 :Use motion_estimation to detect the smoke[to track smoke behavior]
 https://github.com/ross-abaco/rtp-motion-estimation
+https://developer.ridgerun.com/wiki/index.php?title=Xavier/JetPack_4.1/Components/VisionWorks
 
 PATH4 : UC Berkeley;s algorithm 
 build a container and storage place and use UC Berkeley;s algorithm 
