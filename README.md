@@ -1,5 +1,5 @@
 # WORK FLOW
-End goal : do the training (retrain the custom data) and inference  on nano to detect the smoke and notify the firefighter
+End goal : do the training (retrain the custom data) and inference  on nano to detect the smoke and let ppl know where it's ther fire (simultaneously fire the alarm)and notify the firefighter
 
 
 PATH1 : Digits[cloud platform] (make step by step tutorial)
@@ -7,8 +7,8 @@ PATH1 : Digits[cloud platform] (make step by step tutorial)
 1. we put the Dataset from drone and we can distinguishh the sky and lrerrin
 2.now we are trying feed the smoke data and label it to train and let it detect smoke(smoke and not smoke)
 3.use the smoke data provided by researcher (solve label problem automatically,modify the layer text,come up with different scence for smoke)
-4.do the motion vector algorithm to see moving smoke and observe their behavior
-5.run on live camera
+4.do the motion vector algorithm to see moving smoke and observe their behavior(addoition annotation see if it's from fire based on weather,wind)
+5.let ppl run on live camera (social network)
 
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
