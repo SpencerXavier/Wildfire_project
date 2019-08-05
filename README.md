@@ -47,11 +47,8 @@ http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/
 https://github.com/byungheon-jeong/HPWREN-data
 
 # Data-preprocess : Label tool
-https://github.com/DataTurks-Engg/Automatic_tagging_of_clothing_in_E-Commerce
-https://docs.aws.amazon.com/sagemaker/latest/dg/sms-automated-labeling.html
-https://github.com/Labelbox/Labelbox
-https://github.com/HazyResearch/snorkel/tree/master/tutorials/workshop
-https://hazyresearch.github.io/snorkel/blog/ws_blog_post.html
+snorkel : https://github.com/HazyResearch/snorkel
+
 
 # plan
 poster
