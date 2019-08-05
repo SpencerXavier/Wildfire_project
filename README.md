@@ -14,10 +14,6 @@ PATH1 : Digits[cloud platform] (make step by step tutorial)
 6.let ppl run on live camera (social network)
 
 
-7.feed more data
-
-
-
 - run the model on jestoon nano(edge device) to do inference(2 mins)
 
 ------------------
