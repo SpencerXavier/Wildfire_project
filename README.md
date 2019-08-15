@@ -3,8 +3,7 @@ End goal : do the training (retrain the custom data) and inference  on nano to d
 
 
 
-
-PATH1 : Digits[cloud platform] (make step by step tutorial)
+PATH1 : Digits[cloud platform ,kunetes] (make step by step tutorial)
 - We use digits to do the training and test the inference on digits (30secs) [we use semantic segmation algortihm ,caffee model] we can change model or add layer
 1. we put the Dataset from drone and we can distinguishh the sky and lrerrin
 2.now we are trying feed the smoke data and label it to train and let it detect smoke in DIGITS(smoke and not smoke)60 pics
