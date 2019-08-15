@@ -13,7 +13,7 @@ Use motion_estimation to detect the smoke[to track smoke behavior]
 https://github.com/ross-abaco/rtp-motion-estimation
 https://developer.ridgerun.com/wiki/index.php?title=Xavier/JetPack_4.1/Components/VisionWorks
 
-4.run the motion vector algorithm to see moving smoke and observe their behavior(addoition annotation see if it's from fire based on weather,wind) and different (joseph)
+4.run the motion vector algorithm to see moving smoke and observe their behavior(addoition annotation see if it's from fire based on weather,wind) and different and find the distance on smoke (joseph)
 
 5. run the model on jeston nano(edge device) to do inference(2 mins)
 
