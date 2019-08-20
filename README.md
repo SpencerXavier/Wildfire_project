@@ -9,7 +9,7 @@ PATH1 : Digits[cloud platform ,kunetes] (make step by step tutorial)
 2.now we are trying feed the smoke data and label it to train and let it detect smoke in DIGITS(smoke and not smoke)60 pics
 
 3.use the smoke data provided by researcher (solve label problem automatically,modify the layer text,come up with different scence for smoke) --label automatically and let ppl correct it manually create an UI(find a javascipt guy or snokel) 
-Use motion_estimation to detect the smoke[to track smoke behavior]
+Use motion_estimation to detect the smoke[to track smoke behavior] https://github.com/ross-abaco/rtp-motion-estimation/blob/master/demos/motion_estimation/motion_estimation_user_guide.md
 https://github.com/ross-abaco/rtp-motion-estimation
 https://developer.ridgerun.com/wiki/index.php?title=Xavier/JetPack_4.1/Components/VisionWorks
 
