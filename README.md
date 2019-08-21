@@ -31,7 +31,14 @@ PATH3 : UC Berkeley;s algorithm
 # kubernetes backend monitor
 https://grafana.nautilus.optiputer.net/d/85a562078cdf77779eaa1add43ccec1f/k8s-compute-resources-namespace-w-variable-averaging?orgId=1&refresh=10s&var-datasource=prometheus&var-namespace=wifire&var-avg=30m
 
-ps.record how tousde kubernetes
+Pod 是 Kubernetes 的最小工作单元。每个 Pod 包含一个或多个容器。Pod 中的容器会作为一个整体被 Master 调度到一个 Node 上运行。
+Cluster 是计算、存储和网络资源的集合，Kubernetes 利用这些资源运行各种基于容器的应用。
+Master 是 Cluster 的大脑，它的主要职责是调度，即决定将应用放在哪里运行。Master 运行 Linux 操作系统，可以是物理机或者虚拟机。为了实现高可用，可以运行多个 Master。
+node 的职责是运行容器应用。Node 由 Master 管理，Node 负责监控并汇报容器的状态，并根据 Master 的要求管理容器的生命周期。Node 运行在 Linux 操作系统，可以是物理机或者是虚拟机。
+
+
+ps.record how to use kubernetes
+
 
 
 # use DIGITS to train and run on Jeston nano (you can test your own data )
@@ -43,7 +50,12 @@ use custom dataset to train models in digits (you can also test inference on dig
 
  ps.記得操作的時候要show圖片的那格打勾，然後路徑選對
  ps. record how to put data in digits from outside, as well as record how to put data in Digits and Jetson nano
-
+ 
+ 
+ ps. how to put data in digits from outside:
+ 
+ 
+ 
 # data provided by researcher
 http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/
 https://github.com/byungheon-jeong/HPWREN-data
