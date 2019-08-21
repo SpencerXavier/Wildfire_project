@@ -41,6 +41,7 @@ NET = snapshot folder , png = your own data
 segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --output_blob=score_fr
 use custom dataset to train models in digits (you can also test inference on digits)
 
+ 記得操作的時候要show圖片的那格打勾，然後路徑選對
 
 # data provided by researcher
 http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/
