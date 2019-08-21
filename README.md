@@ -28,6 +28,9 @@ PATH3 : UC Berkeley;s algorithm
 -build a container and storage place and use UC Berkeley;s algorithm 
 
 
+# kubernetes backend monitor
+https://grafana.nautilus.optiputer.net/d/85a562078cdf77779eaa1add43ccec1f/k8s-compute-resources-namespace-w-variable-averaging?orgId=1&refresh=10s&var-datasource=prometheus&var-namespace=wifire&var-avg=30m
+
 
 # use DIGITS to train and run on Jeston nano (you can test your own data )
 https://github.com/dusty-nv/jetson-inference
