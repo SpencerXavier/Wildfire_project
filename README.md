@@ -39,6 +39,9 @@ node 的职责是运行容器应用。Node 由 Master 管理，Node 负责监控
 
 
 ps.record how to use kubernetes
+ps.  #Copy /tmp/foo local file to /tmp/bar in a remote pod in a specific container
+     kubectl cp /tmp/foo <some-pod>:/tmp/bar -c <specific-container>
+ps.kubectl cp ~/Desktop/1  digits-66cd96f7c6-kzfkr:/home/digits  
 
 
 
