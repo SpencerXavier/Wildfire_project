@@ -7,10 +7,10 @@ The Goal of this project is using [tensorflow 2.0.0 beta version]('https://www.t
 ## Process :
 This project is using two different path to implement it. The first Path is using deploy DIGITS in [kubernetes](https://kubernetes.io) combine the Semantic Segmentation with SegNet to do the training and deploy into Jetson Nano/TX1/TX2/Xavier. The following guide will help you go through the process step by step.
 
-Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.
+- Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.
 
-[Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
-[Downloading Aerial Drone Test Dataset](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md#downloading-aerial-drone-dataset)
+1. [Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
+2. [Downloading Aerial Drone Test Dataset](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md#downloading-aerial-drone-dataset)
 
 
 
