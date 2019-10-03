@@ -9,8 +9,8 @@ This project is using two different path to implement it. The first Path is usin
 
 - Before we begin, we use the following commands to access into our Digits
 
-     kubectl get pod -n digits
-     kubectl exec -it -n digits digits(namespace) bash
+     1. kubectl get pod -n digits
+     2. kubectl exec -it -n digits digits(namespace) bash
 
 1. Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.(we put the Dataset from drone and we can distinguishh the sky and terrain)
      1. [Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
