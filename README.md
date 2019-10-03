@@ -26,7 +26,7 @@ This project is using two different path to implement it. The first Path is usin
      3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
      4. ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/1.png)
         ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/2.png)
-        <img src="/Users/spencer/Desktop/UCSD-backtoschool/1.png"/>  
+
 
 3. third, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
      1. [FCN-Alexnet Patches for TensorRT](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-patches.md)
