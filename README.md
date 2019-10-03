@@ -26,11 +26,9 @@ This project is using two different path to implement it. The first Path is usin
      2. [training FCN-Alexnet with DIGITS](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-training.md)
      3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
      
+     ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/1.png)
      
-     ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/1.png)
-     
-     
-     ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/2.png)
+     ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/2.png)
 
 
 3. third, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
@@ -42,16 +40,16 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
 
 4. We use 60 [smoke images](https://github.com/aiformankind/wildfire-smoke-detection/tree/master/input/images) as our custom datas set to do the step 1-3 to train our network and test on DIGITS and Jetson.
      1. dataset : 
-        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-1.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_dataset-1.png)
         
-        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-2.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_dataset-2.png)
      2. model :
-        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_model.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_model.png)
 
      3. test data:
-        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_test-1.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_test-1.png)
         
-        ![image](./smoke_test-2.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_test-2.png)
 
 5. We are trying to label the data provided by Hp-wren to repeat step 1-3 to train our network better which is still ongoing.
      1. [Data provides by Hpwren](http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/) is now on this github page(https://github.com/byungheon-jeong/HPWREN-data)
