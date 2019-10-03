@@ -26,7 +26,8 @@ This project is using two different path to implement it. The first Path is usin
 3. Last, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
      1. [FCN-Alexnet Patches for TensorRT](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-patches.md)
      2. [Running Segmentation Models on Jetson](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-console.md)
-     3. NET = snapshot folder , png = your own data
+     3. Remember to change NET variable
+     NET = snapshot folder , png = your own data
 segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --                  model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --    output_blob=score_fr
 
 
