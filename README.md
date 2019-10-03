@@ -24,6 +24,7 @@ This project is using two different path to implement it. The first Path is usin
 2. Second, we generate pretrained FCN-Alexnet and Training FCN-Alexnet with DIGITS
      1. [Generating Pretrained FCN-Alexnet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-pretrained.md)
      2. [training FCN-Alexnet with DIGITS](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-training.md)
+    
      ps. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
      
      ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/1.png)
