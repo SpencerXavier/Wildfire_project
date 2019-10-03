@@ -4,13 +4,24 @@
 The Goal of this project is using [tensorflow 2.0.0 beta version]('https://www.tensorflow.org') and NVIDIA deep learning tools -- [DIGITS](https://github.com/NVIDIA/DIGITS),to Get Started training DNNs and deploying them into the edge computer that we can put inside the camera, which is [Jetson Nano/TX1/TX2/Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), to  detect the smoke by itself. Once it detect the smoke, the alarm we set up inside the camera will notify the 911 department in time and prevent tragedy happening.
 
 
+## Process :
+This project is using two different path to implement it. The first Path is using deploy DIGITS in [kubernetes](https://kubernetes.io) combine the Semantic Segmentation with SegNet to do the training and deploy into Jetson Nano/TX1/TX2/Xavier. The following guide will help you go through the process step by step.
+
+Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.
+[Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
+[Downloading Aerial Drone Test Dataset](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md#downloading-aerial-drone-dataset)
 
 
 
 
 
 
-do the training (retrain the custom data) and inference  on nano to detect the smoke and let ppl know where it's ther fire (simultaneously fire the alarm)and notify the firefighter cuz they have no tech to change the game
+
+
+
+
+
+
 
 
 
