@@ -42,13 +42,16 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
 
 4. We use 60 [smoke images](https://github.com/aiformankind/wildfire-smoke-detection/tree/master/input/images) as our custom datas set to do the step 1-3 to train our network and test on DIGITS and Jetson.
      1. dataset : 
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-1.png)
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-2.png)
+        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-1.png)
+        
+        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_dataset-2.png)
      2. model :
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_model.png)
+        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_model.png)
+
      3. test data:
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_test-1.png)
-        ![avatar](./smoke_test-2.png)
+        ![image](/Users/spencer/Desktop/UCSD-backtoschool/smoke_test-1.png)
+        
+        ![image](./smoke_test-2.png)
 
 5. We are trying to label the data provided by Hp-wren to repeat step 1-3 to train our network better which is still ongoing.
      1. [Data provides by Hpwren](http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/) is now on this github page(https://github.com/byungheon-jeong/HPWREN-data)
