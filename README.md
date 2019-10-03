@@ -10,12 +10,11 @@ This project is using two different path to implement it. The first Path is usin
 1. Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.
      1. [Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
      2. [Downloading Aerial Drone Test Dataset](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md#downloading-aerial-drone-dataset)
-
-while there are some slight difference in our data path:
-- Feature image folder: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/720p/images
-- Label image folder: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/720p/labels
-- Class labels: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-labels.txt
-- Color map file: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-training-colors.txt
+     3. while there are some slight difference in our data path:
+     - Feature image folder: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/720p/images
+     - Label image folder: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/720p/labels
+     - Class labels: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-labels.txt
+     - Color map file: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-training-colors.txt
 
 
 
