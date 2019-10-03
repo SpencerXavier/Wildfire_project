@@ -26,6 +26,7 @@ This project is using two different path to implement it. The first Path is usin
      3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
      4. ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/1.png)
         ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/2.png)
+        <img src="/Users/spencer/Desktop/UCSD-backtoschool/1.png"/>  
 
 3. third, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
      1. [FCN-Alexnet Patches for TensorRT](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-patches.md)
@@ -49,7 +50,7 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
      1. [Data provides by Hpwren](http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/) is now on this github page(https://github.com/byungheon-jeong/HPWREN-data)
 
 
-PATH2 : KERAS (USE tensorflow 2.0)
+PATH2 : KERAS (USE tensorflow 2.0) is still ongoing
 - use keras to run it do the same thing
 
 
