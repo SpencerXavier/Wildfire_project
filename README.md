@@ -24,7 +24,7 @@ This project is using two different path to implement it. The first Path is usin
 2. Second, we generate pretrained FCN-Alexnet and Training FCN-Alexnet with DIGITS
      1. [Generating Pretrained FCN-Alexnet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-pretrained.md)
      2. [training FCN-Alexnet with DIGITS](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-training.md)
-     3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
+     ps. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
      
      ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/1.png)
      
@@ -34,7 +34,7 @@ This project is using two different path to implement it. The first Path is usin
 3. third, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
      1. [FCN-Alexnet Patches for TensorRT](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-patches.md)
      2. [Running Segmentation Models on Jetson](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-console.md)
-     3. Remember to change NET variable, NET = snapshot folder , png = your own data
+     ps. Remember to change NET variable, NET = snapshot folder , png = your own data
 segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --                  model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --    output_blob=score_fr
 
 
