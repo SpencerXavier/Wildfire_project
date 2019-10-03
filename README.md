@@ -1,5 +1,21 @@
 # WORK FLOW
-End goal : do the training (retrain the custom data) and inference  on nano to detect the smoke and let ppl know where it's ther fire (simultaneously fire the alarm)and notify the firefighter cuz they have no tech to change the game
+## End goal : The Goal of this project is using [tensorflow 2.0.0 beta version]('https://www.tensorflow.org') and NVIDIA deep learning tools -- [DIGITS](https://github.com/NVIDIA/DIGITS),to Get Started training DNNs and deploying them into the edge computer that we can put inside the camera, which is [Jetson Nano/TX1/TX2/Xavier](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/), to  detect the smoke by itself. Once it detect the smoke, the alarm we set up inside the camera will notify the 911 department in time and prevent tragedy happening.
+
+
+
+
+
+
+
+
+do the training (retrain the custom data) and inference  on nano to detect the smoke and let ppl know where it's ther fire (simultaneously fire the alarm)and notify the firefighter cuz they have no tech to change the game
+
+
+
+
+
+Welcome to our instructional guide for inference and realtime DNN vision library for NVIDIA Jetson Nano/TX1/TX2/Xavier.
+
 
 
 
