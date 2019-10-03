@@ -25,8 +25,8 @@ This project is using two different path to implement it. The first Path is usin
      1. [Generating Pretrained FCN-Alexnet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-pretrained.md)
      2. [training FCN-Alexnet with DIGITS](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-training.md)
      3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
-     4. ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/1.png)
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/2.png)
+     4. ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/1.png)
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/2.png)
 
 
 3. third, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
