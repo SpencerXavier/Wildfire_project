@@ -16,6 +16,18 @@ This project is using two different path to implement it. The first Path is usin
      - Class labels: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-labels.txt
      - Color map file: /home/digits/NVIDIA-Aerial-Drone-Dataset/FPV/SFWA/fpv-training-colors.txt
 
+2. Second, we generate pretrained FCN-Alexnet and Training FCN-Alexnet with DIGITS
+     1. [Generating Pretrained FCN-Alexnet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-pretrained.md)
+     2. [training FCN-Alexnet with DIGITS](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-training.md)
+     3. Remember to select the visualize image segmentation to image segmentation and click the bottom to show the visualization and statistics
+     4. ![](/Users/spencer/Desktop/UCSD-backtoschool/Screen\ Shot\ 2019-10-03\ at\ 2.31.43\ PM.png)
+        ![](/Users/spencer/Desktop/UCSD-backtoschool/Screen\ Shot\ 2019-10-03\ at\ 2.31.54\ PM.png)
+
+
+
+
+
+Generating Pretrained FCN-Alexnet
 
 
 
