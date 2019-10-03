@@ -40,7 +40,7 @@ This project is using two different path to implement it. The first Path is usin
 segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --                  model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --    output_blob=score_fr
 
 
-4. We use 60 [smoke images](https://github.com/aiformankind/wildfire-smoke-detection/tree/master/input/images) as our custom datas set to do the step 1-3 to train our network and test on DIGITS and Jetson.
+4. We use 60 [smoke images](https://github.com/aiformankind/wildfire-smoke-detection/tree/master/input/images) as our custom datas set to repeat the step 1-3 to train our network and test on DIGITS and Jetson.
      1. dataset : 
         ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_dataset-1.png)
         
