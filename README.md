@@ -8,8 +8,9 @@ The Goal of this project is using [tensorflow 2.0.0 beta version]('https://www.t
 This project is using two different path to implement it. The first Path is using deploy DIGITS in [kubernetes](https://kubernetes.io) combine the Semantic Segmentation with SegNet to do the training and deploy into Jetson Nano/TX1/TX2/Xavier. The following guide will help you go through the process step by step.
 
 - Before we begin, we use the following commands to access into our Digits
-     . kubectl get pod -n digits
-     . kubectl exec -it -n digits digits(namespace) bash
+
+     kubectl get pod -n digits
+     kubectl exec -it -n digits digits(namespace) bash
 
 1. Fisrt, we dig into what semantic segmantation is and download Aerial Drone Test Dataset.(we put the Dataset from drone and we can distinguishh the sky and terrain)
      1. [Semantic Segmentation with SegNet](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-dataset.md)
