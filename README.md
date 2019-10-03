@@ -47,9 +47,9 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
         ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_model.png)
 
      3. test data:
-        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_test-1.png)
-        
         ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_test-2.png)
+        
+        ![image](https://github.com/SpencerXavier/Wildfire_project/blob/master/image/smoke_test-1.png)
 
 5. We are trying to label the data provided by Hp-wren to repeat step 1-3 to train our network better which is still ongoing.
      1. [Data provides by Hpwren](http://hpwren.ucsd.edu/HWB/HPWREN-FIgLib/20180717-otay-om-s-mobo-c/) is now on this github page(https://github.com/byungheon-jeong/HPWREN-data)
