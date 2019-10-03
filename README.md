@@ -43,7 +43,7 @@ segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy
         ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_model.png)
      3. test data:
         ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_test-1.png)
-        ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/smoke_test-2.png)
+        ![avatar](./smoke_test-2.png)
        
 
 5. We are trying to label the data provided by Hp-wren to repeat step 1-3 to train our network better which is still ongoing.
