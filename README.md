@@ -5,7 +5,7 @@ The Goal of this project is using [tensorflow 2.0.0 beta version]('https://www.t
 
 
 ## Process :
-This project is using two different path to implement it. The first Path is using deploy DIGITS in [kubernetes](https://kubernetes.io) combine the Semantic Segmentation with SegNet to do the training and deploy into Jetson Nano/TX1/TX2/Xavier. The following guide will help you go through the process step by step.
+This project is using two different path to implement it. The first Path is using deploy DIGITS in [kubernetes](https://kubernetes.io) combine the Semantic Segmentation with SegNet to do the training and deploy into Jetson Nano/TX1/TX2/Xavier, while the second path is replacing DIGITS with tensorflow 2.0. The following guide will help you go through the process step by step.
 
 - Before we begin, we use the following commands to access into our Digits
 
