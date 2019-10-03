@@ -23,29 +23,11 @@ This project is using two different path to implement it. The first Path is usin
      4. ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/1.png)
         ![avatar](/Users/spencer/Desktop/UCSD-backtoschool/2.png)
 
-
-
-
-
-Generating Pretrained FCN-Alexnet
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Welcome to our instructional guide for inference and realtime DNN vision library for NVIDIA Jetson Nano/TX1/TX2/Xavier.
+3. Last, download and extract the trained model snapshot to Jetson (snapshot is in job folder)
+     1.[FCN-Alexnet Patches for TensorRT](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-patches.md)
+     2.[Running Segmentation Models on Jetson](https://github.com/dusty-nv/jetson-inference/blob/master/docs/segnet-console.md)
+     3. NET = snapshot folder , png = your own data
+         segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --                  model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --    output_blob=score_fr
 
 
 
@@ -94,17 +76,11 @@ ps.kubectl cp ~/Desktop/1  digits-66cd96f7c6-kzfkr:/home/digits
 
 # use DIGITS to train and run on Jeston nano (you can test your own data )
 https://github.com/dusty-nv/jetson-inference
-ps. download and extract the trained model snapshot to Jetson (snapshot is in job)
-NET = snapshot folder , png = your own data
-segnet-console north_firecam_720.png output_firetower.png --prototxt=$NET/deploy.prototxt --model=$NET/snapshot_iter_4522.caffemodel --labels=$NET/fpv-labels.txt --colors=$NET/fpv-deploy-colors.txt --input_blob=data --output_blob=score_fr
+
+
 use custom dataset to train models in digits (you can also test inference on digits)
 
- ps.記得操作的時候要show圖片的那格打勾，然後路徑選對
- ps. record how to put data in digits from outside, as well as record how to put data in Digits and Jetson nano
- 
- 
- ps. how to put data in digits from outside:
- 
+
  
  
 # data provided by researcher
